@@ -118,7 +118,7 @@ export const ProjectsSection = () => {
     rel="noopener noreferrer"
     className="cosmic-button flex items-center space-x-2 text-foreground/80 hover:text-white hover:bg-black transition-colors duration-300"
   >
-    <span>Live Demo</span>
+    <span>Live </span>
     <ExternalLink size={20} />
   </a>
 
