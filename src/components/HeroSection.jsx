@@ -9,16 +9,25 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-            <span className="text-primary opacity-0 animate-fade-in-delay-1">
-              {" "}
-              Sifat
-            </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
-              {" "}
-              Mohiuddin
-            </span>
-          </h1>
+  <span className="opacity-0 animate-fade-in">Hi, I'm</span>
+
+  {/* Mobile view: Sifat and Mohiuddin on one line */}
+  <span className="md:hidden opacity-0 animate-fade-in-delay-1">
+    <span className="text-primary"> Sifat&nbsp;</span>
+    <span className="text-white">Mohiuddin</span>
+  </span>
+
+  {/* Desktop view: Sifat and Mohiuddin separate */}
+  <span className="hidden md:inline text-primary opacity-0 animate-fade-in-delay-1">
+    {" "}
+    Sifat
+  </span>
+  <span className="hidden md:inline text-white ml-2 opacity-0 animate-fade-in-delay-2">
+    {" "}
+    Mohiuddin
+  </span>
+</h1>
+
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             I craft dynamic web applications using Laravel and modern PHP frameworks.
