@@ -8,7 +8,7 @@ const projects = [
       "A Fast responsive E-commerce platform featuring a clean and responsive frontend. Seamless checkout with SSLCommerz payment gateway and OTP verification for enhanced security. Includes a powerful admin dashboard for managing products, orders, user data, and delivery information and wishlist",
     image: "/projects/project-shop.png",
     tags: ["PHP", "Bootstrap", "SQL", "html", "CSS", "JavaScript" ],
-    demoUrl: "#",
+    demoUrl: "https://fashion.fwh.is/",
     githubUrl: "https://github.com/sifatmohiuddin/The-Fashion-Hub",
   },
 
@@ -62,7 +62,7 @@ const projects = [
       "Built with JavaScript, PHP, SQL, and Bootstrap, featuring a clean and responsive frontend. Seamless checkout with SSLCommerz payment gateway and OTP verification for enhanced security. Includes a powerful admin dashboard for managing products, orders, user data, and delivery information and wishlist",
     image: "/projects/project-livewire.png",
     tags: ["Laravel", "Livewire", "Blade", "TailwindCSS"],
-    demoUrl: "#",
+    demoUrl: "https://livewere.fwh.is/",
     githubUrl: "https://github.com/sifatmohiuddin/livewire-poll",
   },
 
