@@ -51,7 +51,7 @@ const projects = [
       "A beautifully crafted real estate platform .Offers role-based access for Guests, Buyers, and Sellers using Laravel Policies, Gates, and Sanctum.Features an EMI calculator, image uploads, soft deletes with restore, and real-time Notifications via Laravel. Enhanced with custom middleware and caching.",
     image: "/projects/project-abash.png",
     tags: ["Laravel", "Vue.js", "TailwindCSS", "SQL", "Node.js", "Alpine.js"],
-    demoUrl: "#",
+    demoUrl: "https://abash-bd.fwh.is/listing",
     githubUrl: "https://github.com/sifatmohiuddin/Abash",
   },
 
